@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="408dp"
+        android:layout_height="474dp"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/crName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Food Details"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/crAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Age limit"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/crGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crAge"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Gender"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/crNo"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="55dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Contact No"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/crexp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="81dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="...."
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/crski"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="111dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="...."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="144dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Certifications"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:translationX="-10dp" />
+
+        <ImageView
+            android:id="@+id/imgcer"
+            android:layout_width="163dp"
+            android:layout_height="105dp"
+            android:translationX="10dp"
+            android:translationY="220dp"
+            app:srcCompat="@drawable/img2" />
+
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#673AB7"
+            android:text="Book"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="-130dp"
+            android:translationY="390dp" />
+
+        <TextView
+            android:id="@+id/txtAverageRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:textSize="20sp"
+            android:translationX="10dp"
+            android:translationY="350dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

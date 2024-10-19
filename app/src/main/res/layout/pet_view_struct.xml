@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:layout_marginTop="30dp"
+        android:padding="15dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/certificate"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img1"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/crName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Pet Name"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/crAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Pet Age"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/crGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crAge"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Pet Breed"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/crNo"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="55dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Pet Gender"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/crexp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="81dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Pet Color"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/crski"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crName"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="107dp"
+            android:layout_toRightOf="@+id/certificate"
+            android:text="Features"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0C0C0C"
+            android:text="Edit"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="80dp"
+            android:translationY="170dp" />
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="230dp"
+            android:translationY="170dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
